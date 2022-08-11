@@ -35,7 +35,7 @@ justify-content: space-between;
    line-height: 1.6px;
 }
 
- @import url(https://fonts.googleapis.com/css?family=Muli);
+@import url(https://fonts.googleapis.com/css?family=Muli);
 .snip1555 {
   font-family: 'Muli', Arial, sans-serif;
   font-size: 14px;
@@ -357,12 +357,6 @@ main{
     background-color: black;
     color: #fff;
 }
-.pagos{
-  
-}
-.contac{
- 
-}
 .tilnos{
   text-decoration: underline;
 }
@@ -374,8 +368,6 @@ main{
   display: grid;
   text-decoration: underline;
   
-}
-.maps{  
 }
 .bebidas{
   font-family: "PT Sans Narrow", sans-serif;
