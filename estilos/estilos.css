@@ -1,0 +1,499 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.published-header{
+    font-size: small;
+    font-weight: bold;
+    text-align: center;
+    font-family:'Dosis', sans-serif;
+    text-transform: capitalize;
+      
+}
+body{
+  width: 100%;
+  height: 100vh;
+}
+
+header{
+width:100%;
+height:2.5cm;
+background-color: black;
+}
+.header_{
+  position: fixed;
+  z-index: 10;
+}
+main{
+  width: 100%;
+}
+
+.logo{
+   width:7%;
+   height:100%;
+   text-align: start;
+   line-height: 1.6px;
+   
+}
+
+ @import url(https://fonts.googleapis.com/css?family=Muli);
+.snip1555 {
+  position: fixed;
+  font-family: 'Muli', Arial, sans-serif;
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  line-height: 1em;
+  margin: 15px 40px;
+  text-transform: uppercase;
+  top: 10px;
+  left: 90px;
+  position: absolute;
+}
+.snip1555 li {
+  display: inline-block;
+  list-style: outside none none;
+  margin: 0.5em 0.6em;
+  padding: 12px 15px;
+  position: relative;
+}
+.snip1555 li a {
+  color: #fff;
+  text-decoration: none;
+}
+.snip1555 li:before,
+.snip1555 li:after {
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+  height: 2px;
+  width: 35%;
+  background-color: #528cb3;
+  position: absolute;
+  content: '';
+  opacity: 0;
+}
+.snip1555 li:before {
+  top: 0;
+  left: 0;
+}
+.snip1555 li:after {
+  bottom: 0;
+  right: 0;
+}
+.snip1555 li:hover:before,
+.snip1555 li.hover:before,
+.snip1555 li:hover:after,
+.snip1555 li.hover:after {
+  opacity: 1;
+}
+.snip1555 li:hover:before,
+.snip1555 li.hover:before {
+  left: 65%;
+}
+.snip1555 li:hover:after,
+.snip1555 li.hover:after {
+  right: 65%;
+}
+
+.buscador{
+    position:absolute;
+    top:40px;
+    left:33cm;
+}
+.icon_{
+  position: absolute;
+  top: 33px;
+  left: 1465px;
+}
+.icon{
+  position: absolute;
+  top: 35px;
+  left: 1425px;
+}
+
+.port{
+    position: relative;
+    top: 80px;
+}
+.port_{
+  position: relative;
+}
+.port_img{
+    width: 100%;
+    height: 21cm;
+}
+.port_img_{
+    position: absolute;
+    top: 750px;
+    left: 20%;
+    font-size:4vh;
+    text-transform: uppercase;
+    word-spacing: 12px;
+    font-family:'Anton', sans-serif;
+    color:white
+}
+.port_img1{
+  width: 100%;
+  height: 15cm;
+}
+.tytle_{
+  position: absolute;
+  top: 250px;
+  left: 300px;
+  text-transform: uppercase;
+  word-spacing: 12px;
+  font-family:'Anton', sans-serif;
+  color:#6c757d;
+}
+.tytle_{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 35px;
+  width: 50%;
+  height: 200px;
+  
+  color:#6c757d;
+  font-family: monospace;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid rgb(white); /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 50px; }
+  to { width: 60% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color:white }
+}
+.port_article{
+    position: relative;
+    height:260px ;
+    width: 100%;
+    font-family: "PT Sans Narrow", sans-serif;
+
+}
+.envios{
+    position: absolute;
+    top: 100px;
+    left: 1050px;
+    color: #495057;
+    border-left: 2px solid #495057;
+}
+.camion_img{
+    position: absolute;
+    left: -70px;
+    top: -5px;
+    
+}
+.cuotas{
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    color: #495057;
+    border-left: 2px solid #495057;
+}
+.cuotas_img{
+    position: absolute;
+    left: -70px;
+    top: -5px;
+    
+}
+.seguridad{
+    position: absolute;
+    top: 100px;
+    left: 650px;
+    color: #495057;
+    border-left: 2px solid #495057;
+}
+.seguridad_img{
+    position: absolute;
+    left: -70px;
+    top: -5px;   
+}
+.tytle{
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    width: 100%;
+    height: 200px;
+    top: 60px;
+    color:#000;
+    font-family: monospace;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid rgb(white); /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-caret .5s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 80% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color:white }
+  }
+.list_nav{
+    position: relative;
+    width: 100%;
+    height: 700px;
+    list-style-type: none;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 30px;
+    background-color: #343a40
+}
+
+
+.list_cer{
+    position: absolute;
+    background-image: url("../img/cerveza2.jpg");
+    background-size: cover;
+    width: 20%;
+    height: 350px;
+
+}
+.list_cer_{
+    position: absolute;
+    text-decoration: none;
+    text-transform: capitalize;
+    top: 130px;
+    left: 70px;
+    font-size: 40px;
+    color: #ffffff;
+}
+.list_vin{
+    position: absolute;
+    background-image: url("../img/vino.jpg");
+    background-size: cover;
+    width: 20%;
+    height: 350px;
+    left: 20%;
+    top: 350px;
+}
+.list_vin_{
+    position: absolute;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding-left: 30px;
+    top: 120px;
+    left: 70px;
+    font-size: 40px;
+    color: #ffffff;
+}
+.list_des{
+    position: absolute;
+    background-image: url("../img/destilados.jpg");
+    background-size: cover;
+    height: 350px;
+    width: 20%;
+    left: 40%;
+}
+.list_des_{
+    position: absolute;
+    text-decoration: none;
+    text-transform: capitalize;
+    top: 130px;
+    left: 70px;
+    font-size: 40px;
+    color: #ffffff;
+}
+.list_esp{
+    position: absolute;
+    background-image: url("../img/espumante.jpg");
+    background-size: cover;
+    height: 350px;
+    width: 20%;
+    left: 60%;
+    top: 350px;
+}
+.list_esp_{
+    position: absolute;
+    text-decoration: none;
+    text-transform: capitalize;
+    top: 125px;
+    left: 70px;
+    font-size: 30px;
+    color: #ffffff;
+}
+.list_gin{
+    position: absolute;
+    background-image: url("../img/gin2.jpg");
+    background-size: cover;
+    height: 350px;
+    width: 20%;
+    left: 80%;
+    color: #000;
+}
+.list_gin_{
+    position: absolute;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding-left: 50px;
+    top: 130px;
+    left: 80px;
+    font-size: 40px;
+    color: #ffffff;
+}
+@import url(https://fonts.googleapis.com/css?family=BenchNine:700);
+.snip1582 {
+  background-color: #c47135;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'BenchNine', Arial, sans-serif;
+  font-size: 1em;
+  font-size: 22px;
+  line-height: 1em;
+  margin: 15px 40px;
+  outline: none;
+  padding: 12px 40px 10px;
+  position:absolute;
+  text-transform: uppercase;
+  font-weight: 700;
+  top: 150px;
+  left: -50px;
+  width: 190px;
+}
+
+.snip1582:before,
+.snip1582:after {
+  border-color: transparent;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+  border-style: solid;
+  border-width: 0;
+  content: "";
+  height: 24px;
+  position: absolute;
+  width: 24px;
+}
+
+.snip1582:before {
+  border-color: #c47135;
+  border-top-width: 2px;
+  left: 0px;
+  top: -5px;
+}
+
+.snip1582:after {
+  border-bottom-width: 2px;
+  border-color: #c47135;
+  bottom: -5px;
+  right: 0px;
+}
+
+.snip1582:hover,
+.snip1582.hover {
+  background-color: #c47135;
+}
+
+.snip1582:hover:before,
+.snip1582.hover:before,
+.snip1582:hover:after,
+.snip1582.hover:after {
+  height: 100%;
+  width: 100%;
+}
+
+#drinkshop{
+  position: relative;
+  width: 100%;
+  height: 200px;
+    background-color: black;
+    color: #fff;
+}
+.pagos{
+  position: absolute;
+  top: 0;
+  left: 700px;
+}
+.contac{
+  position: absolute;
+  position: relative;
+  top: -60px;
+  left: 1000px;
+}
+.img_1{
+  position: absolute;
+  top:20px;
+  left: -30px;
+  filter: invert(1);
+}
+.img_2{
+  position: absolute;
+  top: 55px;
+  left: -30px;
+  filter: invert(1);
+}
+.img_3{
+  position: absolute;
+  top: 90px;
+  left: -30px;
+  filter: invert(1);
+}
+.img1{
+  position: absolute;
+  top:20px;
+  left: -30px;
+  filter: invert(1);
+}
+.img2{
+  position: absolute;
+  top: 55px;
+  left: -30px;
+  filter: invert(1);
+}
+.img3{
+  position: absolute;
+  top: 90px;
+  left: -30px;
+  filter: invert(1);
+}
+.instagram{
+  filter: invert(1);
+}
+.facebook_{
+ filter: invert(1);
+}
+.whatsapp_{
+  filter: invert(1);
+}
+.redes{
+  position: absolute;
+  left: 0px;
+  top: 120px;
+}
+.tilnos{
+  text-decoration: underline;
+}
+.maps{
+  position: absolute;
+  left: 1230px;
+  top: 20px;
+}
+.bebidas{
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 14px;
+}
+.bebidas_{
+  text-align: center;
+}
