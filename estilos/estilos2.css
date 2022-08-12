@@ -230,54 +230,103 @@ main{
     from, to { border-color: transparent }
     100% { border-color:white }
   }
-.list_nav{
+.list{
     width: 100%;
-    height: 700px;
-    list-style-type: none;
+    background-color: #343a40
+  }
+.list_nav{
     display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
-    grid-template-rows: 50% 50%;
-    flex-wrap: wrap;
+    grid-template-columns: 33% 33% 33%;
+    justify-items:center;
+    justify-content:space-around;
+    list-style-type: none;
     font-family: "PT Sans Narrow", sans-serif;
     font-size: 30px;
-    background-color: #343a40
-    
+}
+.list_{
+  display: grid;
+  grid-template-columns: 60rem 8% 40rem;
+  justify-items: center;
+  margin-top: 50px;
+  list-style-type: none;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 30px;
 }
 .list_cer{
-    
+    position: relative;
     background-image: url("../img/cerveza2.jpg");
     background-size: cover;
+    border-style: solid;
+    width: 350px;
     height: 350px;
 
 }
 .list_vin{
+    position: relative;
     background-image: url("../img/vino.jpg");
     background-size: cover;
+    border-style: solid;
+    width: 350px;
     height: 350px;
   }
 
 .list_des{
+    position: relative;
     background-image: url("../img/destilados.jpg");
     background-size: cover;
+    border-style: solid;
+    width: 350px;
     height: 350px;
 }
 
 .list_esp{
+    position: relative;
     background-image: url("../img/espumante.jpg");
     background-size: cover;
+    border-style: solid;
+    width: 350px;
     height: 350px;
 }
 
 .list_gin{
+    position: relative;
     background-image: url("../img/gin2.jpg");
     background-size: cover;
+    border-style: solid;
+    width: 350px;
     height: 350px;
     color: #000;
 }
-.list_{
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
+.list_1{
+  padding: 80px;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 40px;
+  color: #ffffff;
+}
+.list_2{
+  padding: 120px;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 40px;
+  color: #ffffff;
+}
+.list_3{
+  padding: 80px;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 40px;
+  color: #ffffff;
+}
+.list_4{
+  padding: 60px;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 40px;
+  color: #ffffff;
+}
+.list_5{
+  padding: 140px;
   text-decoration: none;
   text-transform: capitalize;
   font-size: 40px;
@@ -300,6 +349,8 @@ main{
   position:absolute;
   text-transform: uppercase;
   font-weight: 700;
+  top: 200px;
+  left: 40px;
   width: 190px;
 }
 
@@ -365,9 +416,7 @@ main{
 }
 
 .redes{
-  display: grid;
   text-decoration: underline;
-  
 }
 .bebidas{
   font-family: "PT Sans Narrow", sans-serif;
